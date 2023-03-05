@@ -2,7 +2,7 @@
 
 void Array(double[] array)
 {
-    Console.WriteLine("Enter number of array (press enter after each of them)");
+    Console.WriteLine("Enter a number (press enter after each)");
 
     for (int i = 0; i < array.Length; i++)
     {
@@ -48,7 +48,7 @@ void TotalPos(double[] array)
 }
 
 
-Console.WriteLine("Enter number of elements of array");
+Console.WriteLine("How many numbers you will enter?");
 int n = Convert.ToInt32(Console.ReadLine());
 
 double[] array = new double[n];

@@ -11,7 +11,7 @@ double CrossPoint(double k, double m, double b, double c)
     else
     {
         x = (c - b) / (k - m);
-        Console.WriteLine(x);
+        Console.WriteLine($"The crosspoint is {x}");
     }
     return x;
 }
